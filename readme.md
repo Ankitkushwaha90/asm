@@ -6,7 +6,9 @@ sudo apt install nasm
 ```bash
 sudo apt install qemu-system-x86
 ```
-
+```bash
+qemu-system-x86_64
+```
 ```bash
 nasm -f elf64 maddy.asm -o maddy.o
 ```
