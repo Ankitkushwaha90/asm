@@ -1,8 +1,12 @@
 ### (netwide assembly) nasm installation in kali linux
 ```bash
-apt install nasm
+sudo apt install nasm
 ```
 ### Installation virtual machine x86
+```bash
+sudo apt install qemu-system-x86
+```
+
 ```bash
 nasm -f elf64 maddy.asm -o maddy.o
 ```
