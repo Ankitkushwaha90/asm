@@ -48,7 +48,8 @@ nasm -f bin ./boot.asm -o ./boot.bin
 ```bash
 qemu-system-x86_64 -hda ./boot.bin
 ```
-- successfully run on qemu-system-x86_64 
+- successfully run on qemu-system-x86_64
+###  newfile of maddy.asm extension convert to maddy.o  then convert from ld maddy./
 ```bash
 nasm -f elf64 maddy.asm -o maddy.o
 ```
