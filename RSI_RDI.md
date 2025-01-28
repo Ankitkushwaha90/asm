@@ -1,4 +1,4 @@
-```mdx
+
 # RSI and RDI: Purpose and Usage in x86/x86_64 Architecture
 
 The registers **RSI (Source Index)** and **RDI (Destination Index)** have specific traditional uses in the x86/x86_64 architecture, primarily for string operations and function arguments (in x86_64 under the System V ABI). Below, we'll break down their roles and demonstrate them with examples.
