@@ -1,4 +1,5 @@
 ; hello_world.asm
+
 BITS 16                    ; Set processor to 16-bit mode
 ORG 0x7C00                 ; Origin address (BIOS loads bootloader here)
 
